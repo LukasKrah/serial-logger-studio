@@ -13,11 +13,11 @@ This tool is designed to handle background connection states, automated disk I/O
 
 ## 🚀 Features
 
-- **Live Multi-Port Tracking:** Connect and listen to multiple COM ports simultaneously without locking the main UI thread. Perfect for scenarios utilizing base-stations and multiple peripheral nodes.
-- **Historical Session Rendering:** Serial disconnects are logged as discreet sessions. When you reconnect, previous runs load alongside your active read automatically.
-- **Wildcard Event Filtering:** Apply fast, regular-expression-backed masking right from the GUI to hide noisy status loops or repetitive sensor telemetry updates, letting you isolate the debug prints that matter.
-- **Asynchronous GUI Event Pump:** Avoids `tkinter` lock-ups by piping all backend serial streams through a queue batching system.
-- **System-Tray Execution:** Can be collapsed to run silently in the system tray while tracking variables over long testing durations.
+- **Live Multi-Port Tracking** 
+- **Historical Session Rendering**
+- **Wildcard Event Filtering**
+- **Asynchronous GUI Event Pump**
+- **System-Tray Execution**
 
 ## 📦 Installation & Setup
 
